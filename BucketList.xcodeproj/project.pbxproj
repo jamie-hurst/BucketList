@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D3793012794A3FD00F63A93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3793002794A3FD00F63A93 /* ContentView.swift */; };
+		7D3793032794A94A00F63A93 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3793022794A94A00F63A93 /* Location.swift */; };
 		7D5CF5B9278779CF008696C3 /* BucketListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5CF5B8278779CF008696C3 /* BucketListApp.swift */; };
-		7D5CF5BB278779CF008696C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5CF5BA278779CF008696C3 /* ContentView.swift */; };
 		7D5CF5BD278779CF008696C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D5CF5BC278779CF008696C3 /* Assets.xcassets */; };
 		7D5CF5C0278779CF008696C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D5CF5BF278779CF008696C3 /* Preview Assets.xcassets */; };
+		7D73BFE32797853E007EB146 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D73BFE22797853E007EB146 /* EditView.swift */; };
+		7D9E061D278B737900BBF7D1 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9E061C278B737900BBF7D1 /* FileManager-DocumentsDirectory.swift */; };
+		7DB9D3B527A1DD7800EB129F /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB9D3B427A1DD7800EB129F /* ContentView-ViewModel.swift */; };
+		7DC3EF62279C95210055A900 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC3EF61279C95210055A900 /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D3793002794A3FD00F63A93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7D3793022794A94A00F63A93 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		7D5CF5B5278779CF008696C3 /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D5CF5B8278779CF008696C3 /* BucketListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListApp.swift; sourceTree = "<group>"; };
-		7D5CF5BA278779CF008696C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D5CF5BC278779CF008696C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D5CF5BF278779CF008696C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D73BFE22797853E007EB146 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		7D9E061C278B737900BBF7D1 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		7DB9D3B427A1DD7800EB129F /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
+		7DC3EF61279C95210055A900 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +62,14 @@
 			isa = PBXGroup;
 			children = (
 				7D5CF5B8278779CF008696C3 /* BucketListApp.swift */,
-				7D5CF5BA278779CF008696C3 /* ContentView.swift */,
+				7D9E061C278B737900BBF7D1 /* FileManager-DocumentsDirectory.swift */,
+				7D3793002794A3FD00F63A93 /* ContentView.swift */,
+				7DB9D3B427A1DD7800EB129F /* ContentView-ViewModel.swift */,
+				7D3793022794A94A00F63A93 /* Location.swift */,
+				7D73BFE22797853E007EB146 /* EditView.swift */,
 				7D5CF5BC278779CF008696C3 /* Assets.xcassets */,
 				7D5CF5BE278779CF008696C3 /* Preview Content */,
+				7DC3EF61279C95210055A900 /* Result.swift */,
 			);
 			path = BucketList;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D5CF5BB278779CF008696C3 /* ContentView.swift in Sources */,
+				7D3793012794A3FD00F63A93 /* ContentView.swift in Sources */,
 				7D5CF5B9278779CF008696C3 /* BucketListApp.swift in Sources */,
+				7D73BFE32797853E007EB146 /* EditView.swift in Sources */,
+				7DC3EF62279C95210055A900 /* Result.swift in Sources */,
+				7DB9D3B527A1DD7800EB129F /* ContentView-ViewModel.swift in Sources */,
+				7D3793032794A94A00F63A93 /* Location.swift in Sources */,
+				7D9E061D278B737900BBF7D1 /* FileManager-DocumentsDirectory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +292,7 @@
 				DEVELOPMENT_TEAM = 435PDV6Y55;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please authenticate yourself to unlock your places.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +322,7 @@
 				DEVELOPMENT_TEAM = 435PDV6Y55;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please authenticate yourself to unlock your places.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
