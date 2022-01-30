@@ -18,6 +18,9 @@ extension ContentView {
         
         @Published var isUnlocked = false
         
+        @Published var authenticationError = "Unknown error"
+        @Published var isShowingAuthenticationError = false
+        
         let savePath = FileManager.documentsDirectory.appendingPathComponent("SavedPlaces")
         
         init() {
@@ -31,10 +34,10 @@ extension ContentView {
         
         func addLocation() {
             let newLocation = Location(id: UUID(),
-                                       name: "New location",
-                                       description: "",
-                                       latitude: mapRegion.center.latitude,
-                                       longitude: mapRegion.center.longitude)
+                name: "New location",
+                description: "",
+                latitude: mapRegion.center.latitude,
+                longitude: mapRegion.center.longitude)
             locations.append(newLocation)
             save()
         }
@@ -50,17 +53,19 @@ extension ContentView {
                 
                 context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason) { success, authenticationError in
                     // authentication has now completed
-                    if success {
-                        // authenticated successfully
-                        Task { @MainActor in
+                    Task { @MainActor in
+                        if success {
                             self.isUnlocked = true
+                        } else {
+                            self.authenticationError = "There was a problem authenticating; please try again."
+                            self.isShowingAuthenticationError = true
                         }
-                    } else {
-                        // error
                     }
                 }
             } else {
                 // no biometrics
+                authenticationError = "Sorry, your device does not support biometric authentication."
+                isShowingAuthenticationError = true
             }
         }
         

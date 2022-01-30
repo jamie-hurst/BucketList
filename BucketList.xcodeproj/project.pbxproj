@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D34583827A4C277005E248C /* EditView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D34583727A4C277005E248C /* EditView-ViewModel.swift */; };
 		7D3793012794A3FD00F63A93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3793002794A3FD00F63A93 /* ContentView.swift */; };
 		7D3793032794A94A00F63A93 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3793022794A94A00F63A93 /* Location.swift */; };
 		7D5CF5B9278779CF008696C3 /* BucketListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5CF5B8278779CF008696C3 /* BucketListApp.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D34583727A4C277005E248C /* EditView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditView-ViewModel.swift"; sourceTree = "<group>"; };
 		7D3793002794A3FD00F63A93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D3793022794A94A00F63A93 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		7D5CF5B5278779CF008696C3 /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,8 +67,9 @@
 				7D9E061C278B737900BBF7D1 /* FileManager-DocumentsDirectory.swift */,
 				7D3793002794A3FD00F63A93 /* ContentView.swift */,
 				7DB9D3B427A1DD7800EB129F /* ContentView-ViewModel.swift */,
-				7D3793022794A94A00F63A93 /* Location.swift */,
+				7D34583727A4C277005E248C /* EditView-ViewModel.swift */,
 				7D73BFE22797853E007EB146 /* EditView.swift */,
+				7D3793022794A94A00F63A93 /* Location.swift */,
 				7D5CF5BC278779CF008696C3 /* Assets.xcassets */,
 				7D5CF5BE278779CF008696C3 /* Preview Content */,
 				7DC3EF61279C95210055A900 /* Result.swift */,
@@ -157,6 +160,7 @@
 				7D73BFE32797853E007EB146 /* EditView.swift in Sources */,
 				7DC3EF62279C95210055A900 /* Result.swift in Sources */,
 				7DB9D3B527A1DD7800EB129F /* ContentView-ViewModel.swift in Sources */,
+				7D34583827A4C277005E248C /* EditView-ViewModel.swift in Sources */,
 				7D3793032794A94A00F63A93 /* Location.swift in Sources */,
 				7D9E061D278B737900BBF7D1 /* FileManager-DocumentsDirectory.swift in Sources */,
 			);
